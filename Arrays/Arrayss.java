@@ -28,5 +28,20 @@ public class Arrayss { // class name can be Arrayss
         // Copying an Array
         int[] copyArr = java.util.Arrays.copyOf(arr, arr.length);
         System.out.println("Copied array: " + java.util.Arrays.toString(copyArr));
+
+
+        //2D Arrays
+         int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        System.out.println("\nMatrix elements:");
+        for(int i = 0; i < matrix.length; i++){
+            for(int j = 0; j < matrix[i].length; j++){
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

@@ -3,6 +3,7 @@ package Arrays;
 public class AdvancedArrays {
 
     // 1. Prefix Sum
+
     public static void prefixSumExample() {
         int[] arr = {1, 2, 3, 4, 5};
         int[] prefix = new int[arr.length];
@@ -10,13 +11,14 @@ public class AdvancedArrays {
         for (int i = 1; i < arr.length; i++) {
             prefix[i] = prefix[i - 1] + arr[i];
         }
-        // Example: sum of index 1 to 3 (2+3+4)
+      
         int l = 1, r = 3;
         int sum = prefix[r] - (l > 0 ? prefix[l - 1] : 0);
-        System.out.println("Prefix Sum [1..3] = " + sum); // 9
+        System.out.println("Prefix Sum [1..3] = " + sum); 
     }
 
     // 2. Sliding Window
+
     public static void slidingWindowExample() {
         int[] arr = {1, 2, 3, 4, 5};
         int k = 3;
@@ -27,7 +29,7 @@ public class AdvancedArrays {
             windowSum += arr[i] - arr[i - k];
             maxSum = Math.max(maxSum, windowSum);
         }
-        System.out.println("Max sum of window size " + k + " = " + maxSum); // 12
+        System.out.println("Max sum of window size " + k + " = " + maxSum); 
     }
 
     // 3. Two Pointers
@@ -87,7 +89,7 @@ public class AdvancedArrays {
             if (count == 0) candidate = num;
             count += (num == candidate) ? 1 : -1;
         }
-        System.out.println("Majority Element = " + candidate); // 2
+        System.out.println("Majority Element = " + candidate); 
     }
 
     // 7. XOR Trick
@@ -95,7 +97,7 @@ public class AdvancedArrays {
         int[] arr = {1, 2, 3, 2, 1};
         int xor = 0;
         for (int num : arr) xor ^= num;
-        System.out.println("Unique Element = " + xor); // 3
+        System.out.println("Unique Element = " + xor); 
     }
 
     public static void main(String[] args) {

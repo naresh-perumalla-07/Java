@@ -15,17 +15,20 @@ public class Arrayss { // class name can be Arrayss
         System.out.println("First name: " + names[0]);
 
         // Using enhanced for loop
+
         System.out.println("\nScores using enhanced for loop:");
         for(int score : scores){
             System.out.println(score);
         }
 
         // Sorting an Array using java.util.Arrays
+
         int[] arr = {5, 2, 8, 1, 9};
         java.util.Arrays.sort(arr); // Fully qualified name
         System.out.println("\nSorted array: " + java.util.Arrays.toString(arr));
 
         // Copying an Array
+        
         int[] copyArr = java.util.Arrays.copyOf(arr, arr.length);
         System.out.println("Copied array: " + java.util.Arrays.toString(copyArr));
 

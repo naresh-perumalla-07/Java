@@ -93,6 +93,7 @@ public class AdvancedArrays {
     }
 
     // 7. XOR Trick
+    
     public static void xorExample() {
         int[] arr = {1, 2, 3, 2, 1};
         int xor = 0;

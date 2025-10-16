@@ -6,7 +6,7 @@ public class Functions {
     //Syntax 
 
     // returnType methodName(parameters) {
-    // // bodyfdgsadfasdf
+    // // bodyfdgsadfasdfasdfasf
     // return value;  // if returnType is not void
     // }
 

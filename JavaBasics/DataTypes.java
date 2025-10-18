@@ -12,7 +12,7 @@ public class DataTypes {
         System.out.println("Grade: " + grade);
         System.out.println("Is Java Fun? " + isJavaFun);
 
-        // Example: changing valuegfh
+        // Example: changing valuegfhdfgfdg
         age = 22;
         System.out.println("Updated Age: " + age);
     }

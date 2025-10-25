@@ -2,7 +2,7 @@ package Arrays;
 
 public class AdvancedArrays {
 
-    // 1. Prefix fgsdfsdghcgh
+    // 1. Prefix fgsdfsdghcghcvcx
 
     public static void prefixSumExample() {
         int[] arr = {1, 2, 3, 4, 5};

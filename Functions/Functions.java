@@ -3,7 +3,7 @@ package Functions;
 public class Functions {
 
 
-    //Syntax cvcdf
+    //Syntax cvcdfdf
 
     // returnType methodName(parameters) {
     // // body

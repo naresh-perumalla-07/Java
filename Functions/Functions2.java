@@ -1,7 +1,7 @@
 package Functions;
 
 public class Functions2 {
-    //Static and Non Staticfdssdf
+    //Static and Non Staticfdssdfsdf
 
     static void staticMethod() {
         System.out.println("I am static!");

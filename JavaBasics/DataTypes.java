@@ -5,7 +5,7 @@ public class DataTypes {
         int age = 21;               // integer
         double salary = 45000.50;   // decimal
         char grade = 'A';            // single character
-        boolean isJavaFun = true;   // true/false
+        boolean isJavaFun = true;   // true/falsetry
 
         System.out.println("Age: " + age);
         System.out.println("Salary: " + salary);

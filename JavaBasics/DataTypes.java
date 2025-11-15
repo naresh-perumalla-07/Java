@@ -3,7 +3,7 @@ package JavaBasics;
 public class DataTypes {
     public static void main(String[] args) {
         int age = 21;               // integer
-        double salary = 45000.50;   // decimal
+        double salary = 45000.50;   // decimal 
         char grade = 'A';            // single character 
         boolean isJavaFun = true;   // true/false 
 

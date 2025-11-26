@@ -4,7 +4,7 @@ public class Functions {
 
 
     //Syntax  
- 
+  
     returnType methodName(parameters) {
     // body 
     return value;  // if returnType is not void

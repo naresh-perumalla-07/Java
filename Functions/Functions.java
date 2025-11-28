@@ -3,7 +3,6 @@ package Functions;
 public class Functions {
 
 
-    //Syntax  
   
     returnType methodName(parameters) {
     // body 
